@@ -1,7 +1,9 @@
 {% include "header.html" %}
 
 <div class="container-segregate">
-    <div id="camera"></div>
+    <!-- <div id="camera"></div> -->
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="canvas" style="display: none;"></canvas>
     <table id="result" cellpadding="20px" border="1" style="display: none;">
         <tr>
             <th>Material</th>
